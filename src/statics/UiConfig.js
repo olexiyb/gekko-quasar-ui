@@ -7,16 +7,16 @@ const CONFIG = {
     headless: false,
     api: {
       host: '127.0.0.1',
-      port: 3000,
+      port: 3001,
       timeout: 10 * 60 * 1000 // 10 minutes
     },
     ui: {
       ssl: false,
-      host: '127.0.0.1',
-      port: 3000,
+      host: 'dneprsol.ddns.net',
+      port: 3001,
       path: '/'
     },
-    adapter: 'sqlite',
+    adapter: 'mongodb',
 
   /**
    * Gordon UI - configure your additional Indicator names here
